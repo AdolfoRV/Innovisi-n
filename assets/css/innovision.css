@@ -80,7 +80,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1e1e1e;
+  color: #514998;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -143,7 +143,7 @@ body {
 }
 
 .section-heading h6 {
-  color: #ee626b;
+  color: #8d84dc;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -151,7 +151,7 @@ body {
 
 .icon-button a {
   display: inline-block;
-  background-color: #1e1e1e;
+  background-color: #40397b;
   color: #f7eff7;
   font-size: 14px;
   font-weight: 400;
@@ -175,7 +175,7 @@ body {
 }
 
 .icon-button a:hover {
-  color: #514998;
+  background-color: #8d84dc;
 }
 
 .icon-button a:hover i {
@@ -184,7 +184,7 @@ body {
 
 .main-button a {
   display: inline-block;
-  background-color: #1e1e1e;
+  background-color: #514998;
   color: #f7eff7;
   font-size: 14px;
   font-weight: 500;
@@ -196,7 +196,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #514998;
+  background-color: #8d84dc;
   color: #f7eff7;
 }
 
@@ -311,7 +311,7 @@ Header Style
 .sub-header {
   background-color: #f7eff7;
   padding: 10px 0px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #8d84dc;
 }
 
 .sub-header ul li {
@@ -330,7 +330,7 @@ Header Style
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: #cdcdcd;
+  background-color: #514998;
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
@@ -340,12 +340,12 @@ Header Style
 }
 
 .sub-header ul.social-links li a:hover {
-  background-color: #514998;
+  background-color: #8d84dc;
 }
 
 .sub-header ul.info li {
   font-size: 14px;
-  color: #7a7a7a;
+  color: #8d84dc;
   border-right: 1px solid #eee;
   margin-right: 25px;
   padding-right: 25px;
@@ -517,7 +517,8 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child:hover a {
-  background-color: #bebadd;
+  background-color: #8d84dc;
+  color: #f7eff7;
 }
 
 .header-area .main-nav .nav li:last-child:hover a i {
@@ -705,7 +706,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ee626b!important;
+    color: #8d84dc!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -816,14 +817,14 @@ Banner Style
 
 .main-banner .owl-dots {
   position: absolute;
-  bottom: 60px;
+  bottom: 80px;
   left: 20%;
 }
 
 .main-banner .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #f7eff7;
+  background-color: #8d84dc;
   border-radius: 50%;
   margin-right: 10px;
   transition: all .5s;
@@ -1029,7 +1030,7 @@ Video Style
   text-align: center;
   line-height: 52px;
   color: #514998;
-  outline: 15px solid rgba(254, 85, 37, 0.5);
+  outline: 15px solid #514998;
   font-size: 18px;
 }
 
@@ -1045,7 +1046,7 @@ Fun Facts Style
 }
 
 .fun-facts .counter {
-  background-color: #ffeee9;
+  background-color: #8d84dc;
   position: relative;
   border-radius: 10px;
   width: 270px;
@@ -1062,7 +1063,7 @@ Fun Facts Style
 .fun-facts .counter p {
   text-align: left;
   font-size: 16px;
-  color: #1e1e1e;
+  color: #f7eff7;
   font-weight: 600;
   line-height: 28px;
 }
@@ -1070,7 +1071,7 @@ Fun Facts Style
 .fun-facts .counter h2 {
   margin-right: 25px;
   font-size: 40px;
-  color: #514998;
+  color: #40397b;
 }
 
 .fun-facts .counter:after {
@@ -1103,7 +1104,7 @@ Best Deal Style
 .best-deal .tabs-content .nav-link {
   font-size: 16px;
   font-weight: 500;
-  background-color: #1e1e1e !important;
+  background-color: #514998 !important;
   border-radius: 5px;
   height: 50px;
   line-height: 50px;
@@ -1113,7 +1114,7 @@ Best Deal Style
 }
 
 .best-deal .tabs-content .nav-tabs .nav-link.active {
-  background-color: #514998 !important;
+  background-color: #8d84dc !important;
   color: #f7eff7;
 }
 
@@ -1185,7 +1186,7 @@ Properties Style
 */
 
 .properties .item {
-  background-color: #fafafa;
+  background-color: #f7f7f7;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1196,11 +1197,11 @@ Properties Style
 }
 
 .properties .item span.category {
-  background-color: #fbd9cf;
+  background-color: #514998;
   font-weight: 500;
   border-radius: 5px;
   font-size: 14px;
-  color: #1e1e1e;
+  color: #f7eff7;
   padding: 5px 12px;
   display: inline-block;
   margin-top: 25px;
@@ -1212,19 +1213,19 @@ Properties Style
 }
 
 .properties .item h4 a {
-  color: #1e1e1e;
+  color: #40397b;
 }
 
 .properties .item ul li {
   display: inline-block;
   font-size: 15px;
-  color: #4a4a4a;
+  color: #514998;
   margin-right: 20px;
 }
 
 .properties .item ul li span {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #40397b;
 }
 
 .properties .item ul {
@@ -1281,7 +1282,7 @@ Contact Style
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 35px 30px;
-  background-color: #f7eff7;
+  background-color: #514998;
 }
 
 .contact-content .phone {
@@ -1302,12 +1303,12 @@ Contact Style
   font-size: 15px;
   font-weight: 600;
   vertical-align: middle;
+  color: #f7eff7;
 }
 
 .contact-content .item h6 span {
   font-size: 12px;
-  color: #aaaaaa;
-  font-weight: 400;
+  color: #8d84dc;
 }
 
 .contact-content #contact-form {
@@ -1315,7 +1316,7 @@ Contact Style
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 35px 30px;
-  background-color: #f7eff7;
+  background-color: #8d84dc;
 }
 
 .contact-content #contact-form label {
@@ -1376,7 +1377,7 @@ footer.footer-no-gap {
 
 footer {
   margin-top: 150px;
-  background-color: #1e1e1e;
+  background-color: #40397b;
   min-height: 100px;
 }
 
@@ -1417,7 +1418,7 @@ Page Header Style
 
 .page-heading span {
   background-color: #f7eff7;
-  color: #1e1e1e;
+  color: #514998;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1427,7 +1428,7 @@ Page Header Style
 }
 
 .page-heading span a {
-  color: #1e1e1e;
+  color: #8d84dc;
 }
 
 .page-heading h3 {
@@ -1462,14 +1463,14 @@ Properties Style
   text-transform: capitalize;
   font-weight: 500;
   color: #f7eff7;
-  background-color: #1e1e1e;
+  background-color: #40397b;
   padding: 12px 25px;
   border-radius: 5px;
   transition: all .3s;
 }
 
 .properties ul.properties-filter li a.is_active {
-  background-color: #514998;
+  background-color: #8d84dc;
   color: #f7eff7;
 }
 
@@ -1478,7 +1479,7 @@ Properties Style
 }
 
 .properties ul.properties-filter li a:hover {
-  color: #514998;
+  color: #8d84dc;
 }
 
 .properties ul.pagination {
@@ -1499,7 +1500,7 @@ Properties Style
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #1e1e1e;
+  background-color: #514998;
   color: #f7eff7;
   font-size: 15px;
   font-weight: 600;
@@ -1509,7 +1510,7 @@ Properties Style
 
 .properties ul.pagination li a:hover,
 .properties ul.pagination li a.is_active {
-  background-color: #514998;
+  background-color: #8d84dc;
   color: #f7eff7;
 }
 
@@ -1643,9 +1644,10 @@ Contact Page Style
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 35px 30px;
-  background-color: #f7eff7;
+  background-color: #514998;
   display: inline-block;
   min-width: 360px;
+  width: 65%;
 }
 
 .contact-page .phone {
@@ -1662,12 +1664,12 @@ Contact Page Style
   font-size: 20px;
   font-weight: 600;
   vertical-align: middle;
+  color: #f7eff7;
 }
 
 .contact-page .item h6 span {
   font-size: 15px;
-  color: #aaaaaa;
-  font-weight: 400;
+  color: #8d84dc;
 }
 
 .contact-page #contact-form {
@@ -1732,6 +1734,7 @@ Responsive Style
 
 body {
   overflow-x: hidden;
+  background-color: #f7eff7;
 }
 
 @media (max-width: 767px) {
