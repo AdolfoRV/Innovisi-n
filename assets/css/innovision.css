@@ -300,8 +300,6 @@ Pre-loader Style
   border-radius: 50%;
 }
 
-
-
 /* 
 ---------------------------------------------
 Header Style
@@ -394,8 +392,8 @@ Header Style
   display: flex;
   align-items: center; 
   background: transparent;
-  justify-content: space-between; /* Asegura que el logo esté a la izquierda y el menú a la derecha */
-  height: 100%; /* Ocupa toda la altura del contenedor */
+  justify-content: space-between;
+  height: 100%;
   width: 100%;
 }
 
