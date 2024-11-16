@@ -344,8 +344,8 @@ Header Style
 .sub-header ul.info li {
   font-size: 14px;
   color: #8d84dc;
-  border-right: 1px solid #eee;
   margin-right: 25px;
+  border-right: 1px solid #eee;
   padding-right: 25px;
 }
 
@@ -392,10 +392,10 @@ Header Style
   background: transparent;
   display: flex;
 
-  /* align-items: center; 
+  align-items: center; 
   justify-content: space-between;
   height: 100%;
-  width: 100%; */
+  width: 100%;
 }
 
 .header-area .main-nav .logo {
@@ -405,7 +405,10 @@ Header Style
   transition: all 0.3s ease 0s;
   /* display: inline-block; */
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin-left: -30px;
 }
 
 .header-area .main-nav .logo h1 {
@@ -428,7 +431,7 @@ Header Style
 
 .header-bar {
   width: 100%;
-  height: 4px;
+  height: 2px;
   background-color: #514998;
   position: absolute;
   bottom: -2px;
@@ -457,14 +460,20 @@ Header Style
   padding-right: 10px;
   height: 100px;
   line-height: 100px;
+}
+.header-area .main-nav .nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100px;
+  line-height: 100px;
   display: flex;
   align-items: center;
 }
 
 .header-area .main-nav .nav li a {
   display: block;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   font-weight: 500;
   font-size: 15px;
   height: 40px;
@@ -482,11 +491,13 @@ Header Style
 .header-area .main-nav .nav li:last-child a {
   background-color: #40397b;
   color: #f7eff7;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   text-transform: none;
   border-radius: 20px;
   padding-left: 0px;
+  padding-right: 8px;
+  margin-right: -30px;
 }
 
 .header-area .main-nav .nav li:last-child a i {
@@ -496,7 +507,7 @@ Header Style
   height: 40px;
   text-align: center;
   line-height: 40px;
-  margin-right: 10px;
+  margin-right: 4px;
   border-radius: 50%;
   margin-left: -1px;
 }
@@ -643,22 +654,30 @@ Header Style
 
 } */
 
-@media (max-width: 1400px) {
+@media (max-width: 999px) {
   .header-area {
-    display: inline-block;
-    align-items: normal;
+    display: block;
+    padding: 0px 15px;
+    height: 80px;
+    box-shadow: none;
   }
   .background-header .main-nav {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 25px 25px;
     width: 100%;
-    
   }
+  /* .main-nav .logo {
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  } */
   .main-nav .logo img {
-    display: none; /* Oculta la imagen */
+    display: flex;
+    width: 110px;
   }
   .background-header .main-nav .logo {
     vertical-align: center;
+    align-items: center;
   }
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
@@ -671,12 +690,12 @@ Header Style
     font-weight: 400;
     color: #514998;
     background-color: #f7eff7;
-     border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 25px 25px;
   }
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
-    border-top: 1px solid #ddd;
-    background-color: #f1f0fe;
+    border-top: 1px solid #514998;
+    background-color: #514998;
     height: 50px;
     border-radius: 0px 0px 25px 25px;
   }
@@ -686,8 +705,9 @@ Header Style
   }
   .header-area .main-nav .logo {
     position: absolute;
-    left: 30px;
+    /* left: 30px; */
     top: 0px;
+    margin: auto;
   }
   .background-header .main-nav .logo {
     top: 0px;
@@ -710,9 +730,22 @@ Header Style
   }
   .header-area .nav li:last-child a {
     background-color: transparent !important;
-    font-weight: 300 !important;
-    text-transform: none !important;
+    font-weight: 400 !important;
+    /* text-transform: none !important; */
   }
+  .header-area .main-nav .nav li:last-child {
+    display: block !important;
+  }
+  .header-area .main-nav .nav li:last-child a {
+    color: #514998;
+  }
+  .header-area .main-nav .nav li:last-child a i {
+    background-color: transparent !important;
+  }
+  .header-area .main-nav .nav li:last-child:hover a i {
+    color: #312c5f;
+  }
+  
   .header-area {
     padding: 0px 15px;
     height: 80px;
@@ -754,6 +787,7 @@ Header Style
     background: #f7eff7;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    display: block;
   }
   
 }
@@ -1255,7 +1289,8 @@ Contact Style
 
 .contact-content .item img {
   float: left;
-  margin-right: 25px;
+  margin-right: 10px;
+  margin-left: -10px;
   vertical-align: middle;
 }
 
@@ -1697,8 +1732,8 @@ body {
   background-color: #f7eff7;
 }
 
-@media (max-width: 767px) {
-  .header-bar {
+@media (max-width: 770px) {
+  .sub-header {
     display: none;
   }
   .header-area .main-nav .logo h1 {
@@ -1712,16 +1747,16 @@ body {
   .properties ul.properties-filter li {
     margin: 5px;
   }
-  .header-area .main-nav .nav li:last-child {
+  /* .header-area .main-nav .nav li:last-child {
     display: none;
-  }
+  } */
 }
 
-@media (max-width: 1400px) {
-  .header-bar {
+@media (max-width: 1200px) {
+  /* .sub-header {
     display: none;
-  }
-  .sub-header {
+  } */
+  .header-area .main-nav .nav li:last-child {
     display: none;
   }
   .header-area .main-nav .logo h1 {
@@ -1730,14 +1765,13 @@ body {
   }
   .background-header .main-nav .logo h1 {
     line-height: 80px;
+    vertical-align: center;
   }
   .header-area .main-nav .nav li a {
     padding-left: 3px;
     padding-right: 3px;
   }
-  .header-area .main-nav .nav li:last-child {
-    display: none;
-  }
+
   .main-banner .item h2 {
     width: 100%;
   }
