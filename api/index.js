@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.post('/message', (req, res) => {
     const response = openai.createCompletion({
-        model: 'text-davinci-003',
+        model: 'gpt-4o-mini-2024-07-18',
         prompt: req.body.message,
         temperature: 0,
         top_p: 1,
